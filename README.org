@@ -1,1 +1,15 @@
-# calibration_curve
+-*- Mode: org; mode: auto-fill; fill-column: 76; org-download-image-dir: "~/Documents/leandro/calibration_curve/img" -*-
+
+* calibration_curve
+  
+  The score you get from a binary classifier (that outputs a number between 0
+  and 1.0 is not necessarily a well-calibrated probability. Even some models
+  that provide a method that return the probability prediction can give you poor
+  estimates of the class probabilities. To solve this problem you have to
+  calibrate the prediction probabilities. Some tools call this calibration curve
+  (Python) and other  reliability diagrams (R).
+  
+* refs
+  
+
+ 
