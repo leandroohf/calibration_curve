@@ -22,4 +22,5 @@
    
    https://machinelearningmastery.com/calibrated-classification-model-in-scikit-learn/
 
+   http://danielnee.com/tag/reliability-diagram/
    
