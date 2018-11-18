@@ -1,15 +1,25 @@
 -*- Mode: org; mode: auto-fill; fill-column: 76; org-download-image-dir: "~/Documents/leandro/calibration_curve/img" -*-
 
-* calibration_curve
+* Calibration curve
   
-  The score you get from a binary classifier (that outputs a number between 0
-  and 1.0 is not necessarily a well-calibrated probability. Even some models
-  that provide a method that return the probability prediction can give you poor
-  estimates of the class probabilities. To solve this problem you have to
-  calibrate the prediction probabilities. Some tools call this calibration curve
-  (Python) and other  reliability diagrams (R).
-  
-* refs
-  
+  The score you get from a binary classifier (that outputs a number between
+  0 and 1.0 is not necessarily a well-calibrated probability. Even some
+  models that provide a method that return the predicted probability can
+  give you poor estimates of the class probabilities. The tools utilized to
+  calibrate a model are sometimes called calibration curve (Python) and
+  other, reliability diagrams (R).
 
- 
+  See:
+    
+  [[file:intro_calibration_curve]]
+
+  
+** refs
+
+   https://scikit-learn.org/stable/auto_examples/calibration/plot_calibration.html
+
+   http://queirozf.com/entries/introduction-to-auc-and-calibrated-models-with-examples-using-scikit-learn
+   
+   https://machinelearningmastery.com/calibrated-classification-model-in-scikit-learn/
+
+   
