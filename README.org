@@ -11,7 +11,7 @@
 
   See:
     
-  [[file:intro_calibration_curve]]
+  [[file:intro_calibration_curve.ipynb]]
 
   
 ** refs
